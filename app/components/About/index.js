@@ -2,6 +2,7 @@ import React from 'react'
 import CSSModules from 'react-css-modules'
 import style from './style'
 
+import Video from 'components/About/Video'
 import Footer from 'components/Footer'
 
 export class About extends React.Component {
@@ -13,7 +14,7 @@ export class About extends React.Component {
     return (
       <div>
         <section styleName="about">
-          test
+          <Video />
         </section>
         <Footer />
       </div>

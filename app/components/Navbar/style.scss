@@ -27,6 +27,7 @@
   color: $text-gray;
   padding: 0 1rem;
   font-size: 1.2em;
+  cursor: pointer;
   &:hover {
     color: lighten($text-gray, 20%);
   }

@@ -11,22 +11,20 @@ export const Navbar = props => {
   return (
     <nav styleName="navbar">
       <div>
-        <Link to="#">
+        <Link to="/">
           <img src={ logo } styleName="logo" />
         </Link>
       </div>
 
       <div>
         <ul styleName="list">
-          <Link to="#" styleName="link">Map</Link>
-          <Link to="#" styleName="link">About</Link>
-          <Link to="#" styleName="link">Examples</Link>
-          <Link to="#" styleName="link">Sign in</Link>
-          <Link to="#" styleName="link">
-            <Button type="accent-primary">
-              Sign up
-            </Button>
-          </Link>
+          <Link to="/" styleName="link">Map</Link>
+          <Link to="about" styleName="link">About</Link>
+          <Link to="examples" styleName="link">Examples</Link>
+          <div styleName="link">Sign in</div>
+          <Button type="accent-primary">
+            Sign up
+          </Button>
         </ul>
       </div>
     </nav>

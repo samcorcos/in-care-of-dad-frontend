@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "",
-    "test-unit": "webpack --config webpack.specs.config.js && mocha -R spec dist/specs.js",
+    "test-unit": "webpack --config webpack.specs.config.js && mocha --require .jsdom.js -R spec dist/specs.js",
     "start": "node server.js"
   },
   "keywords": [
@@ -42,6 +42,7 @@
     "enzyme": "^2.2.0",
     "expect": "^1.18.0",
     "extract-text-webpack-plugin": "^1.0.1",
+    "jsdom": "^8.4.0",
     "json-loader": "^0.5.4",
     "mocha": "^2.4.5",
     "node-sass": "^3.6.0",

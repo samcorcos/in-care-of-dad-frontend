@@ -9,6 +9,10 @@ export class App extends React.Component {
     super(props)
   }
 
+  componentDidMount() {
+    this.props.foo()
+  }
+
   render() {
     return (
       <div>
@@ -17,6 +21,10 @@ export class App extends React.Component {
       </div>
     )
   }
+}
+
+App.defaultProps = {
+  foo() { return console.log("WOOOOOOO") }
 }
 
 export default CSSModules(App, style)

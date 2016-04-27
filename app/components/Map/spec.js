@@ -2,15 +2,13 @@ import React from 'react'
 import expect from 'expect'
 import { shallow } from 'enzyme'
 
-import { Home } from './'
+import { Map } from './'
 
-describe('<Home />', () => {
+describe('<Map />', () => {
   it('should render', () => {
     const renderedComponent = shallow(
-      <Home>
-        Test
-      </Home>
+      <Map />
     )
-    expect(renderedComponent)
+    expect(renderedComponent.find('div'))
   })
 })

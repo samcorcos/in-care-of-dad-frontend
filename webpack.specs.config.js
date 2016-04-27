@@ -32,8 +32,15 @@ module.exports = {
       {
         test: /\.json$/,
         loader: 'json'
+      },
+      {
+        test: /\.(png|jpg)$/,
+        loader: "file?name=images/[hash].[ext]"
       }
     ]
+  },
+  sassLoader: {
+    includePaths: [ path.resolve( __dirname, 'app', 'styles')]
   },
   postcss: [ autoprefixer({ browsers: ['last 2 versions'] }) ],
   resolve: {

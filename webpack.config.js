@@ -30,7 +30,7 @@ module.exports = {
         loader: ExtractTextPlugin.extract('style', 'css?modules&importLoaders=1&localIdentName=[local]_[hash:base64:5]!postcss!sass')
       },
       {
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(png|jpg)$/,
         loader: "file?name=images/[hash].[ext]"
       }
     ]

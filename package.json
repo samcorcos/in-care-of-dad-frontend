@@ -4,8 +4,11 @@
   "description": "The most intuitive platform for 3D printing topographical maps.",
   "main": "index.js",
   "scripts": {
-    "test": "",
-    "test-unit": "webpack --config webpack.specs.config.js && mocha --require .jsdom.js -R spec dist/specs.js",
+    "test": "npm run webpack-spec && npm run test-unit",
+    "webpack-spec": "webpack --config webpack.specs.config.js",
+
+    "//": "https://github.com/gotwarlost/istanbul/issues/44#issuecomment-16093330",
+    "test-unit": "istanbul cover _mocha -- --require .jsdom.js -R spec dist/specs.js",
     "start": "node server.js"
   },
   "keywords": [
@@ -42,6 +45,7 @@
     "enzyme": "^2.2.0",
     "expect": "^1.18.0",
     "extract-text-webpack-plugin": "^1.0.1",
+    "istanbul": "^0.4.3",
     "jsdom": "^8.4.0",
     "json-loader": "^0.5.4",
     "mocha": "^2.4.5",

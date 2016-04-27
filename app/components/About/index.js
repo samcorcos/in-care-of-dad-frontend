@@ -7,6 +7,7 @@ import Content from 'components/About/Content'
 import ModelsGenerated from 'components/About/ModelsGenerated'
 import Everest from 'components/About/Everest'
 import Options from 'components/About/Options'
+import Education from 'components/About/Education'
 import Footer from 'components/Footer'
 
 export class About extends React.Component {
@@ -29,6 +30,8 @@ export class About extends React.Component {
         <Everest />
 
         <Options />
+
+        <Education />
 
         <Footer />
       </div>

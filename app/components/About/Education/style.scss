@@ -1,0 +1,51 @@
+@import 'theme';
+
+.education {
+  background: $brand;
+  min-height: 500px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 3rem;
+}
+
+.gradient {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, rgba(255,255,255,0.2), transparent)
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  font-size: 2.5em;
+}
+
+.content {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+.text {
+  width: 40%;
+  color: white;
+  font-size: 1.3em;
+  line-height: 1.5;
+  padding: 2rem;
+}
+
+.image {
+  max-width: 50%;
+  border: 2px solid #666;
+  border-radius: 5px;
+}

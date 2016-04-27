@@ -1,0 +1,45 @@
+@import 'theme';
+
+.everest {
+  display: flex;
+  flex-flow: column nowrap;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.title {
+  font-size: 2.3em;
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 4rem;
+  color: $brand;
+}
+
+.content {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.placeholder {
+  height: 300px;
+  width: 400px;
+  background: $text;
+  border-radius: 3px;
+}
+
+.image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding-right: 20rem;
+  font-size: 1.3em;
+  line-height: 1.3;
+}

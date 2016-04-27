@@ -5,6 +5,7 @@ import style from './style'
 import Video from 'components/About/Video'
 import Content from 'components/About/Content'
 import ModelsGenerated from 'components/About/ModelsGenerated'
+import Everest from 'components/About/Everest'
 import Footer from 'components/Footer'
 
 export class About extends React.Component {
@@ -22,7 +23,9 @@ export class About extends React.Component {
         </section>
 
         {/* TODO this is a placeholder. Needs to get real `props` */}
-        <ModelsGenerated count={100} />
+        <ModelsGenerated count={2804} />
+
+        <Everest />
 
         <Footer />
       </div>

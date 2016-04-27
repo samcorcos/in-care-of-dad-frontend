@@ -3,6 +3,7 @@ import CSSModules from 'react-css-modules'
 import style from './style'
 
 import Video from 'components/About/Video'
+import Content from 'components/About/Content'
 import Footer from 'components/Footer'
 
 export class About extends React.Component {
@@ -14,8 +15,11 @@ export class About extends React.Component {
     return (
       <div>
         <section styleName="about">
+          <div styleName="overlay"></div>
           <Video />
+          <Content />
         </section>
+
         <Footer />
       </div>
     )

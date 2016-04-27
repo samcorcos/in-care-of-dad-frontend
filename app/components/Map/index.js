@@ -138,7 +138,7 @@ export class Map extends React.Component {
   }
 
   componentDidMount() {
-    renderMap()
+    // renderMap()
   }
 
   render() {

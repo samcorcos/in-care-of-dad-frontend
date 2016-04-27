@@ -1,5 +1,4 @@
 import React from 'react'
-
 import CSSModules from 'react-css-modules'
 import styles from './styles'
 
@@ -9,9 +8,11 @@ export class Loading extends React.Component {
   constructor(props) {
     super(props)
   }
+
   handleClick(e) {
     e.stopPropagation()
   }
+
   render() {
     return (
       <div onClick={this.handleClick.bind(this)} styleName="loading">

@@ -4,6 +4,7 @@ import style from './style'
 
 import Video from 'components/About/Video'
 import Content from 'components/About/Content'
+import ModelsGenerated from 'components/About/ModelsGenerated'
 import Footer from 'components/Footer'
 
 export class About extends React.Component {
@@ -19,6 +20,9 @@ export class About extends React.Component {
           <Video />
           <Content />
         </section>
+
+        {/* TODO this is a placeholder. Needs to get real `props` */}
+        <ModelsGenerated count={100} />
 
         <Footer />
       </div>

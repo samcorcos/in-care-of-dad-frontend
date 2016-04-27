@@ -13,11 +13,13 @@
 .logo {
   max-height: 46px;
   padding-left: 3rem;
+  cursor: pointer;
 }
 
 .list {
   display: flex;
   flex-flow: row nowrap;
+  align-items: center;
   padding-right: 3rem;
 }
 
@@ -25,4 +27,7 @@
   color: $text-gray;
   padding: 0 1rem;
   font-size: 1.2em;
+  &:hover {
+    color: lighten($text-gray, 20%);
+  }
 }

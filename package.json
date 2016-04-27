@@ -1,6 +1,7 @@
 {
   "name": "sightline",
   "version": "0.0.1",
+  "repository": "https://github.com/Sightline-Maps/sightline_v4",
   "description": "The most intuitive platform for 3D printing topographical maps.",
   "main": "index.js",
   "scripts": {

@@ -11,16 +11,16 @@ describe('<App />', () => {
     )
     expect(renderedComponent.find('div'))
   })
-  it('should call function from props on componentDidMount', () => {
-    const fooSpy = expect.createSpy()
-    const props = {
-      foo: fooSpy
-    }
-    const renderedComponent = mount(
-      <App {...props}>
-        Test
-      </App>
-    )
-    expect(fooSpy).toHaveBeenCalled()
-  })
+  // it('should call props.foo on componentDidMount', () => {
+  //   const fooSpy = expect.createSpy()
+  //   const props = {
+  //     foo: fooSpy
+  //   }
+  //   const renderedComponent = mount(
+  //     <App {...props}>
+  //       Test
+  //     </App>
+  //   )
+  //   expect(fooSpy).toHaveBeenCalled()
+  // })
 })

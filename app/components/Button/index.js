@@ -14,7 +14,6 @@ export const Button = props => {
 }
 
 Button.propTypes = {
-  id: React.PropTypes.string,
   onClick: React.PropTypes.func,
   type: React.PropTypes.string.isRequired,
   children: React.PropTypes.node.isRequired

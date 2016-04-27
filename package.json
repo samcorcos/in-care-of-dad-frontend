@@ -7,7 +7,6 @@
   "scripts": {
     "test": "npm run webpack-spec && npm run test-unit",
     "webpack-spec": "webpack --config webpack.specs.config.js",
-
     "//": "https://github.com/gotwarlost/istanbul/issues/44#issuecomment-16093330",
     "test-unit": "istanbul cover _mocha -- --require .jsdom.js -R spec dist/specs.js",
     "start": "node server.js"

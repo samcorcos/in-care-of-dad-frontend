@@ -34,7 +34,12 @@ module.exports = {
         loader: 'json'
       },
       {
+        test: /\.icon.png$/,
+        loader: "file?name=images/icons/[hash].[ext]"
+      },
+      {
         test: /\.(png|jpg)$/,
+        exclude: [ path.resolve(__dirname, "app", "images", "icons") ],
         loader: "file?name=images/[hash].[ext]"
       }
     ]

@@ -30,7 +30,12 @@ module.exports = {
         loader: ExtractTextPlugin.extract('style', 'css?modules&importLoaders=1&localIdentName=[local]_[hash:base64:5]!postcss!sass')
       },
       {
+        test: /\.icon.png$/,
+        loader: "file?name=images/icons/[hash].[ext]"
+      },
+      {
         test: /\.(png|jpg)$/,
+        exclude: [ path.resolve(__dirname, "app", "images", "icons") ],
         loader: "file?name=images/[hash].[ext]"
       }
     ]

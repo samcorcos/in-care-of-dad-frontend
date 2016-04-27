@@ -3,10 +3,11 @@
 .footer {
   height: 20rem;
   background: $brand;
+  padding: 3rem;
+  position: relative;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
-  padding: 3rem;
 }
 
 .logo {
@@ -21,4 +22,12 @@
 .link {
   color: $text-gray;
   padding-bottom: 1rem;
+}
+
+.credits {
+  color: $text-gray;
+  position: absolute;
+  bottom: 15;
+  left: 50%;
+  transform: translate(-50%, 0);
 }

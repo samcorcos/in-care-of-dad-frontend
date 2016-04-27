@@ -1,0 +1,28 @@
+@import 'theme';
+
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background: $brand;
+  height: 60px;
+  width: 100%;
+}
+
+.logo {
+  max-height: 46px;
+  padding-left: 3rem;
+}
+
+.list {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-right: 3rem;
+}
+
+.link {
+  color: $text-gray;
+  padding: 0 1rem;
+  font-size: 1.2em;
+}

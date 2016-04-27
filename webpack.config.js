@@ -7,6 +7,7 @@ module.exports = {
   devtool: 'eval',
   entry: [
     'webpack-dev-server/client?http://localhost:3000',
+    'babel-polyfill',
     './app/index'
   ],
   output: {
@@ -27,8 +28,15 @@ module.exports = {
       {
         test: /\.scss$/,
         loader: ExtractTextPlugin.extract('style', 'css?modules&importLoaders=1&localIdentName=[local]_[hash:base64:5]!postcss!sass')
+      },
+      {
+        test: /\.(png|jpg|gif)$/,
+        loader: "file?name=images/[hash].[ext]"
       }
     ]
+  },
+  sassLoader: {
+    includePaths: [ path.resolve( __dirname, 'app', 'styles')]
   },
   postcss: [ autoprefixer({ browsers: ['last 2 versions'] }) ],
   resolve: {

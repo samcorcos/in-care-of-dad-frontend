@@ -1,0 +1,64 @@
+@import "theme";
+
+.button {
+  color: white;
+  border-radius: 5px;
+  border: 1px;
+  padding: 0.6rem 1.5rem;
+  cursor: pointer;
+  font-size: 1em;
+  align-self: center;
+  & > a {
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+  }
+}
+
+.primary {
+  composes: button;
+  background: $brand;
+  color: white;
+  &:hover {
+    background: lighten($brand, 7%);
+  }
+}
+
+.flat {
+  composes: button;
+  background: white;
+  color: $brand;
+  border: 1px solid $brand;
+  &:hover {
+    color: lighten($brand, 15%);
+  }
+}
+
+.accent-primary {
+  composes: button;
+  background: $accent;
+  color: white;
+  &:hover {
+    background: lighten($accent, 10%);
+  }
+}
+
+.accent-flat {
+  composes: button;
+  background: white;
+  color: $accent;
+  border: 1px solid $accent;
+  &:hover {
+    color: lighten($accent, 15%);
+  }
+}
+
+.disabled {
+  composes: button;
+  cursor: disabled;
+}
+
+.loading {
+  composes: button;
+  background: blue;
+}

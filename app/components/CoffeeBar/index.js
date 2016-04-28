@@ -3,6 +3,7 @@ import CSSModules from 'react-css-modules'
 import style from './style'
 
 import SideMenu from 'components/CoffeeBar/SideMenu'
+import ChatWindow from 'components/CoffeeBar/ChatWindow'
 
 const props = {
   users: [

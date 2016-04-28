@@ -9,9 +9,20 @@ export class News extends React.Component {
 
   render() {
     return (
-      <div>
-        News component
-      </div>
+      <section styleName="news">
+
+        <div styleName="left-panel">
+          List of items
+        </div>
+
+        <div styleName="card">
+          foo
+        </div>
+
+        <div styleName="right-panel">
+          bar
+        </div>
+      </section>
     )
   }
 }

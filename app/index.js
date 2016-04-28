@@ -9,6 +9,7 @@ import Home from 'components/Home'
 import About from 'components/About'
 import NotFound from 'components/NotFound'
 import CoffeeBar from 'components/CoffeeBar'
+import News from 'components/News'
 
 import 'styles/reset'
 import 'file?name=[name].[ext]!../index.html'
@@ -20,6 +21,7 @@ ReactDOM.render(
         <IndexRoute component={Home} />
 				<Route path="about" component={About} />
         <Route path="chat" component={CoffeeBar} />
+        <Route path="news" component={News} />
 
         <Route path="*" component={NotFound}/>
       </Route>

@@ -69,7 +69,7 @@ export class CoffeeBar extends React.Component {
     return (
       <section styleName="coffee-bar">
         <SideMenu locations={props.locations} users={props.users} />
-
+        <ChatWindow />
       </section>
     )
   }

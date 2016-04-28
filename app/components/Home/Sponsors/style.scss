@@ -1,0 +1,30 @@
+@import 'theme';
+
+.sponsors {
+  min-height: 300px;
+  background: lighten($brand, 10%);
+  padding: 3rem;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: normal;
+  padding-bottom: 2rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.placeholder {
+  height: 100px;
+  width: 100px;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+}

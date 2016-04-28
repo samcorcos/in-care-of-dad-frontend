@@ -1,6 +1,6 @@
 @import 'theme';
 
-.connect {
+.news {
   min-height: 400px;
   background: white;
   padding: 3rem;
@@ -21,9 +21,9 @@
   align-items: center;
 }
 
-.chat {
+.image {
   max-width: 70%;
-  transform: translateX(-20%);
+  transform: translateX(20%);
 }
 
 .content {
@@ -31,7 +31,7 @@
   flex-flow: column nowrap;
   font-size: 1.3em;
   line-height: 1.5;
-  transform: translateX(-20%);
+  transform: translateX(20%);
 }
 
 .item {

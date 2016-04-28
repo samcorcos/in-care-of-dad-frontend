@@ -6,6 +6,8 @@ import Landing from 'components/Home/Landing'
 import Story from 'components/Home/Story'
 import Resources from 'components/Home/Resources'
 import Connect from 'components/Home/Connect'
+import News from 'components/Home/News'
+import Sponsors from 'components/Home/Sponsors'
 
 export class Home extends React.Component {
   constructor(props) {
@@ -19,6 +21,8 @@ export class Home extends React.Component {
         <Story />
         <Resources />
         <Connect />
+        <News />
+        <Sponsors />
       </div>
     )
   }

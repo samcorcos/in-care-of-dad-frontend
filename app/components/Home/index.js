@@ -8,6 +8,7 @@ import Resources from 'components/Home/Resources'
 import Connect from 'components/Home/Connect'
 import News from 'components/Home/News'
 import Sponsors from 'components/Home/Sponsors'
+import Footer from 'components/Footer'
 
 export class Home extends React.Component {
   constructor(props) {
@@ -23,6 +24,7 @@ export class Home extends React.Component {
         <Connect />
         <News />
         <Sponsors />
+        <Footer />
       </div>
     )
   }

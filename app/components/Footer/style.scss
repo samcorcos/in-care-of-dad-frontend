@@ -1,33 +1,37 @@
 @import "theme";
 
 .footer {
-  height: 20rem;
+  height: 8rem;
   background: $brand;
-  padding: 3rem;
-  position: relative;
+  padding: 2rem;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
 }
 
 .logo {
   height: 50px;
 }
 
-.list {
-  display: flex;
-  flex-flow: column nowrap;
+.title {
+  font-size: 2em;
+  color: white;
+  padding-left: 1rem;
+  font-weight: lighter;
+  transform: translateY(4px);
 }
 
-.link {
-  color: $text-gray;
-  padding-bottom: 1rem;
-}
-
-.credits {
-  color: $text-gray;
-  position: absolute;
-  bottom: 15;
-  left: 50%;
-  transform: translate(-50%, 0);
+.item {
+  color: white;
+  padding: 0 1rem;
+  &:hover {
+    color: $brand-lighten-3;
+  }
 }

@@ -1,21 +1,21 @@
 {
-  "name": "sightline",
+  "name": "incareofdad",
   "version": "0.0.1",
-  "repository": "https://github.com/Sightline-Maps/sightline_v4",
-  "description": "The most intuitive platform for 3D printing topographical maps.",
+  "repository": "http://github.com/samcorcos/in-care-of-dad-frontend.git",
+  "description": "Frontend for In Care of Dad - Alzheimers and dementia support group",
   "main": "index.js",
   "scripts": {
     "test": "npm run webpack-spec && npm run test-unit",
     "webpack-spec": "webpack --config webpack.specs.config.js",
-    "//": "https://github.com/gotwarlost/istanbul/issues/44#issuecomment-16093330",
     "test-unit": "istanbul cover _mocha -- --require .jsdom.js -R spec dist/specs.js",
     "start": "node server.js"
   },
   "keywords": [
-    "maps"
+    "alzheimers",
+    "dementia"
   ],
-  "author": "Sam Corcos <sam@sightlinemaps.com> (http://sightlinemaps.com)",
-  "license": "SEE LICENSE IN LICENSE",
+  "author": "Sam Corcos <sam@corcos.io>",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.13.4",
     "history": "^2.1.0",

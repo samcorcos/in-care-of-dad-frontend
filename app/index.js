@@ -9,6 +9,7 @@ import NotFound from 'components/NotFound'
 import Terms from 'components/Terms'
 
 import 'styles/reset'
+import 'file?name=[name].[ext]!../index.html'
 
 ReactDOM.render(
 	<Router history={hashHistory}>

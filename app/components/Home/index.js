@@ -16,6 +16,7 @@ export class Home extends React.Component {
       <div styleName="home">
         <Landing />
         <Story />
+        <Resources />
       </div>
     )
   }

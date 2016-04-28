@@ -1,0 +1,44 @@
+@import 'theme';
+
+.resources {
+  min-height: 400px;
+  background: lighten($brand-lighten-3, 5%);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 3rem 10%;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: $text-brand;
+  font-weight: normal;
+  font-size: 3em;
+  padding-bottom: 2rem;
+}
+
+.checklist {
+  font-weight: normal;
+  font-size: 1.5em;
+  color: $text;
+  padding-bottom: 0.5rem;
+  padding-left: 30px;
+}
+
+.pushpin {
+  width: 400px;
+  display: flex;
+  flex-flow: column nowrap;
+  line-height: 1.5;
+  font-size: 1.2em;
+}
+
+.content {
+  display: flex;
+}

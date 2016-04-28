@@ -50,6 +50,7 @@
 .image {
   display: block;
   width: 700px;
+  filter: saturate(3) grayscale(80%);
 }
 
 .speech {

@@ -5,13 +5,14 @@ import { Link } from 'react-router'
 
 import Button from 'components/Button'
 
-import logo from 'images/navbar-logo.png'
+import logo from 'images/flower.png'
 
 export const Navbar = props => {
   return (
     <nav styleName="navbar">
       <div>
         <Link to="/">
+          <img src={logo} styleName="image" />
           <h2 styleName="logo">In Care of Dad</h2>
         </Link>
       </div>

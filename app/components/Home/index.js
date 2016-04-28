@@ -2,14 +2,17 @@ import React from 'react'
 import CSSModules from 'react-css-modules'
 import style from './style'
 
+import Landing from 'components/Home/Landing'
+
 export class Home extends React.Component {
   constructor(props) {
     super(props)
   }
-  
+
   render() {
     return (
-      <div>
+      <div styleName="home">
+        <Landing />
         Home component
       </div>
     )

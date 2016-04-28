@@ -3,8 +3,6 @@ import CSSModules from 'react-css-modules'
 import style from './style'
 import { Link } from 'react-router'
 
-import logo from 'images/navbar-logo.png'
-
 export class Footer extends React.Component {
   constructor(props) {
     super(props)
@@ -15,7 +13,7 @@ export class Footer extends React.Component {
       <footer styleName="footer">
 
         <div styleName="list">
-          <img src={logo} styleName="logo" />
+          logo
         </div>
 
         <ul styleName="list">

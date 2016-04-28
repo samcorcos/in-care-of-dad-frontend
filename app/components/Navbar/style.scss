@@ -11,11 +11,18 @@
 }
 
 .logo {
-  max-height: 46px;
-  padding-left: 3rem;
   color: white;
+  display: inline;
   font-size: 3em;
   font-weight: lighter;
+  cursor: pointer;
+}
+
+.image {
+  padding-top: 3px;
+  max-height: 46px;
+  padding-left: 3rem;
+  padding-right: 1rem;
   cursor: pointer;
 }
 

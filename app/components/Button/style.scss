@@ -2,6 +2,7 @@
 
 .button {
   color: white;
+  font-family: $font;
   border-radius: 5px;
   border: 1px;
   padding: 0.6rem 1.5rem;
@@ -37,7 +38,7 @@
 .accent-primary {
   composes: button;
   background: $accent;
-  color: $accent-text;
+  color: $text-accent;
   &:hover {
     background: lighten($accent, 10%);
   }

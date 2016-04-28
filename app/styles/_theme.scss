@@ -1,11 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+
 $brand-darken-2: #9C27B0;
 $brand: #AB47BC;
 $brand-lighten-3: #F3E5F5;
 
-$brand-text: #371F3B;
-
 $accent: #FFEC5D;
-$accent-text: #59542E;
 
 $text: rgb(50, 53, 60);
 $text-gray: rgb(130,130,140);
+$text-brand: #371F3B;
+$text-accent: #59542E;
+
+$font: "Roboto", arial, sans-serif;

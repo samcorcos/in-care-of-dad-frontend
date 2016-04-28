@@ -12,15 +12,15 @@ export const Navbar = props => {
     <nav styleName="navbar">
       <div>
         <Link to="/">
-          <img src={ logo } styleName="logo" />
+          <h2 styleName="logo">In Care of Dad</h2>
         </Link>
       </div>
 
       <div>
         <ul styleName="list">
-          <Link to="/" styleName="link">Map</Link>
-          <Link to="about" styleName="link">About</Link>
-          <Link to="examples" styleName="link">Examples</Link>
+          <Link to="/" styleName="link">Resources</Link>
+          <Link to="about" styleName="link">Coffee bar</Link>
+          <Link to="examples" styleName="link">News</Link>
           <div styleName="link">Sign in</div>
           <Button type="accent-primary">
             Sign up

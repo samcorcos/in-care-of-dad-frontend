@@ -20,7 +20,7 @@ export const Navbar = props => {
       <div>
         <ul styleName="list">
           <Link to="/" styleName="link">Resources</Link>
-          <Link to="about" styleName="link">Coffee bar</Link>
+          <Link to="chat" styleName="link">Coffee bar</Link>
           <Link to="examples" styleName="link">News</Link>
           <div styleName="link">Sign in</div>
           <Button type="accent-primary">

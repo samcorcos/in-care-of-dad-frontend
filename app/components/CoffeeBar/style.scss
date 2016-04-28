@@ -1,0 +1,23 @@
+@import 'theme';
+
+.coffee-bar {
+  position: relative;
+}
+
+.nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: calc(100vh - 60px);
+  background: $brand-lighten-3;
+  overflow-y: scroll;
+}
+
+.title {
+  font-size: 1.8em;
+  text-align: center;
+  color: $text-brand;
+  font-weight: normal;
+  padding: 1rem 0;
+}

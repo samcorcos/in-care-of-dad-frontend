@@ -37,7 +37,7 @@
 .accent-primary {
   composes: button;
   background: $accent;
-  color: white;
+  color: $accent-text;
   &:hover {
     background: lighten($accent, 10%);
   }

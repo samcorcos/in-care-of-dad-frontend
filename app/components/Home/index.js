@@ -4,6 +4,7 @@ import style from './style'
 
 import Landing from 'components/Home/Landing'
 import Story from 'components/Home/Story'
+import Resources from 'components/Resources'
 
 export class Home extends React.Component {
   constructor(props) {

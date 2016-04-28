@@ -3,6 +3,7 @@ import CSSModules from 'react-css-modules'
 import style from './style'
 
 import Landing from 'components/Home/Landing'
+import Story from 'components/Home/Story'
 
 export class Home extends React.Component {
   constructor(props) {
@@ -13,7 +14,7 @@ export class Home extends React.Component {
     return (
       <div styleName="home">
         <Landing />
-        Home component
+        <Story />
       </div>
     )
   }

@@ -1,0 +1,41 @@
+@import 'theme';
+
+.story {
+  min-height: 500px;
+  background: white;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: normal;
+  color: $text;
+  padding-bottom: 2rem;
+}
+
+.content {
+  width: 70%;
+  font-size: 1.3em;
+  line-height: 2;
+  padding: 0 2rem;
+}
+
+.image {
+  width: 30%;
+}
+
+.section {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10%;
+}
+
+.blockquote {
+  font-style: italic;
+  padding: 1rem;
+}

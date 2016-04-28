@@ -1,0 +1,39 @@
+@import 'theme';
+
+.connect {
+  min-height: 400px;
+  background: white;
+  padding: 3rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: normal;
+  color: $text;
+  padding-bottom: 2rem;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.chat {
+  max-width: 70%;
+  transform: translateX(-20%);
+}
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 1.3em;
+  line-height: 1.5;
+  transform: translateX(-20%);
+}
+
+.item {
+  padding-bottom: 2rem;
+}

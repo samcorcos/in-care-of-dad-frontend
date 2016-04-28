@@ -5,6 +5,7 @@ import style from './style'
 import Landing from 'components/Home/Landing'
 import Story from 'components/Home/Story'
 import Resources from 'components/Home/Resources'
+import Connect from 'components/Home/Connect'
 
 export class Home extends React.Component {
   constructor(props) {
@@ -17,6 +18,7 @@ export class Home extends React.Component {
         <Landing />
         <Story />
         <Resources />
+        <Connect />
       </div>
     )
   }

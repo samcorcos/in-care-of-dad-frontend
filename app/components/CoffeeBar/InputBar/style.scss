@@ -1,0 +1,12 @@
+@import 'theme';
+
+.input {
+  position: absolute;
+  width: calc(100% - 2rem);
+  bottom: 1.5rem;
+  left: 1.1rem;
+  border: 3px solid #ccc;
+  padding: 0.8rem;
+  border-radius: 5px;
+  font-size: 1em;
+}

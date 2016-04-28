@@ -5,7 +5,7 @@ import style from './style'
 import SideMenu from 'components/CoffeeBar/SideMenu'
 import ChatWindow from 'components/CoffeeBar/ChatWindow'
 
-const props = {
+const menuData = {
   users: [
     "samcorcos",
     "kim",
@@ -61,6 +61,10 @@ const props = {
   ]
 }
 
+const chatData = {
+  
+}
+
 export class CoffeeBar extends React.Component {
   constructor(props) {
     super(props)
@@ -69,7 +73,9 @@ export class CoffeeBar extends React.Component {
   render() {
     return (
       <section styleName="coffee-bar">
-        <SideMenu locations={props.locations} users={props.users} />
+        <SideMenu
+          locations={menuData.locations}
+          users={menuData.users} />
         <ChatWindow />
       </section>
     )

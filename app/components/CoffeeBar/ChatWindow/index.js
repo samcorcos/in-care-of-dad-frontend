@@ -2,18 +2,14 @@ import React from 'react'
 import CSSModules from 'react-css-modules'
 import style from './style'
 
-export class ChatWindow extends React.Component {
-  constructor(props) {
-    super(props)
-  }
+import InputBar from 'components/CoffeeBar/InputBar'
 
-  render() {
-    return (
-      <div>
-        ChatWindow component
-      </div>
-    )
-  }
+export const ChatWindow = props => {
+  return (
+    <section styleName="chat-window">
+      <InputBar />
+    </section>
+  )
 }
 
 export default CSSModules(ChatWindow, style)

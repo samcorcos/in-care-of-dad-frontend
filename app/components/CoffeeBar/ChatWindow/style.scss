@@ -1,0 +1,8 @@
+.chat-window {
+  width: calc(100vw - 300px);
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow-y: scroll;
+  height: calc(100vh - 60px);
+}

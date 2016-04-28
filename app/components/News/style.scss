@@ -44,3 +44,33 @@
   width: 300px;
   padding: 0 1rem;
 }
+
+.post {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.image {
+  height: 80px;
+  width: 80px;
+}
+
+.post-text {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding-left: 1rem;
+}
+
+.post-title {
+  font-size: 1.3em;
+  color: $text;
+  padding-bottom: 0.5rem;
+}
+
+.post-body {
+  color: $text-gray;
+  line-height: 1.3;
+}

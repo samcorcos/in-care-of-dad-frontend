@@ -2,7 +2,7 @@ import React from 'react'
 import CSSModules from 'react-css-modules'
 import style from './style'
 
-export class Terms extends React.Component {
+export class Home extends React.Component {
   constructor(props) {
     super(props)
   }
@@ -10,10 +10,10 @@ export class Terms extends React.Component {
   render() {
     return (
       <div>
-        Terms component
+        Home component
       </div>
     )
   }
 }
 
-export default CSSModules(Terms, style)
+export default CSSModules(Home, style)

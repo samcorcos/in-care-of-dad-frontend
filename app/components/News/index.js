@@ -12,15 +12,22 @@ export class News extends React.Component {
       <section styleName="news">
 
         <div styleName="left-panel">
-          List of items
+          Options
         </div>
 
         <div styleName="card">
-          foo
+          <div styleName="card-head">
+            <h3 styleName="head-title">Today</h3>
+            <div styleName="head-options">Popular | Newest</div>
+          </div>
+
+          <div>
+            body
+          </div>
         </div>
 
         <div styleName="right-panel">
-          bar
+          More options
         </div>
       </section>
     )

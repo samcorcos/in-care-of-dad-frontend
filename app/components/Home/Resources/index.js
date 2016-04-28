@@ -3,6 +3,8 @@ import CSSModules from 'react-css-modules'
 import style from './style'
 import { Link } from 'react-router'
 
+import Button from 'components/Button'
+
 export class Resources extends React.Component {
   constructor(props) {
     super(props)
@@ -27,7 +29,9 @@ export class Resources extends React.Component {
               <Link to="#">10.&nbsp;Build a Support Structure</Link>
           </ul>
           <div styleName="content">
-            test
+            <img styleName="tools" src="https://openclipart.org/image/2400px/svg_to_png/210206/misc-bag-toolbox-green.png" />
+            <p styleName="text">We have created a checklist to guide you through your own caregiving experience, one step at a time. So take a deep breath and let's begin.</p>
+            <Button type="accent-primary">Learn more</Button>
           </div>
         </div>
       </section>

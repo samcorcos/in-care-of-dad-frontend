@@ -19,8 +19,8 @@
 .title {
   color: $text-brand;
   font-weight: normal;
-  font-size: 3em;
-  padding-bottom: 2rem;
+  font-size: 2.5em;
+  padding-bottom: 3rem;
 }
 
 .checklist {
@@ -39,6 +39,21 @@
   font-size: 1.2em;
 }
 
+.tools {
+  display: block;
+  align-self: center;
+  padding-bottom: 2rem;
+  max-width: 60%;
+}
+
 .content {
   display: flex;
+  font-size: 1.3em;
+  line-height: 1.5;
+  flex-flow: column nowrap;
+  flex: 1;
+}
+
+.text {
+  padding-bottom: 2rem;
 }

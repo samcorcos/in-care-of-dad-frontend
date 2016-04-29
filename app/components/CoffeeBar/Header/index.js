@@ -6,7 +6,7 @@ export const Header = props => {
   return (
     <div styleName="header">
       <div styleName="title">
-        #title of room
+        New York, NY
       </div>
       <div styleName="count">
         43 members

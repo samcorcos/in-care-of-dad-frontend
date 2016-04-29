@@ -4,10 +4,24 @@ import { shallow } from 'enzyme'
 
 import { SideMenu } from './'
 
+const menuData = {
+  users: [
+    "samcorcos"
+  ],
+  locations: [
+    {
+      name: "Seattle",
+      count: Math.ceil(Math.random() * 100)
+    }
+  ]
+}
+
 describe('<SideMenu />', () => {
   it('should render', () => {
     const renderedComponent = shallow(
-      <SideMenu />
+      <SideMenu
+        users={menuData.users}
+        locations={menuData.locations} />
     )
     expect(renderedComponent.find('div'))
   })

@@ -1,0 +1,34 @@
+@import 'theme';
+
+.message {
+  display: flex;
+  flex-flow: column nowrap;
+  padding-top: 1rem;
+  padding-left: 100px;
+  position: relative;
+}
+
+.avatar {
+  position: absolute;
+  left: 10;
+  top: 10;
+  height: 70px;
+  width: 70px;
+  background: #ccc;
+  border-radius: 50%;
+}
+
+.name {
+  color: $text;
+  padding-right: 1rem;
+}
+
+.time-stamp {
+  color: $text-gray;
+}
+
+.message-body {
+  line-height: 1.5;
+  padding-right: 3rem;
+  padding-top: 0.5rem;
+}

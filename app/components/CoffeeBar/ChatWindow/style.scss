@@ -6,3 +6,11 @@
   overflow-y: scroll;
   height: calc(100vh - 60px);
 }
+
+.message-wrapper {
+  position: absolute;
+  bottom: 74px;
+  height: calc(100vh - 184px);
+  overflow-y: scroll;
+  z-index: 10;
+}
